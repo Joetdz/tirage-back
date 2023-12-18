@@ -11,14 +11,6 @@ const reader = require("xlsx");
 // Reading our test file
 const file = reader.readFile("./liste.xlsx");
 
-// Printing data
-// console.log(data[23]);
-// var monObjet = data[23];
-// var monTableau = Object.keys(monObjet).map(function (cle) {
-//   return [Number(cle), monObjet[cle]];
-// });
-// console.log(monTableau[1][1], "tab");
-
 app.get("/", (req, res) => {
   let data = [];
 
